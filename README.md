@@ -2,15 +2,17 @@
 
 This plugin does not belong to me i have taken it from https://www.jqueryscript.net/text/Word-Tag-Cloud-Generator-jQWCloud.html
 
-1 Create a container element in which you want to generate the word cloud.
+## 1 Create a container element in which you want to generate the word cloud.
 <div id="wordCloud"></div>
 
-2 Insert jQuery JavaScript library and the jQWCloud.js into your html page.
+## 2 Insert jQuery JavaScript library and the jQWCloud.js into your html page.
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
 </script>
 <script src="jQWCloud.js"></script>
 
-3 Prepare your words & tags to be presented in the word cloud.
+
+## 3 Prepare your words & tags to be presented in the word cloud.
+
 const myData = [
   {word: 'Prashant', weight: 40},
   {word: 'Sandeep', weight: 39},
@@ -32,15 +34,15 @@ const myData = [
   {word: 'Kunal', weight: 27},
   {word: 'Rishi', weight: 80},
   {word: 'Chintan', weight: 22}          
-]
+];
 
-4 The JavaScript to generate a basic word cloud in the page.
+## 4 The JavaScript to generate a basic word cloud in the page.
 
 $("#wordCloud").jQWCloud({
   words: myData
 });
 
-5 Customize the word cloud with the following options.
+## 5 Customize the word cloud with the following options.
 
 $("#wordCloud").jQWCloud({
 
@@ -77,7 +79,7 @@ $("#wordCloud").jQWCloud({
   
 });
 
-6 Callback functions available.
+## 6 Callback functions available.
 $("#wordCloud").jQWCloud({
   word_click : function(){},
   word_mouseOver : function(){},
