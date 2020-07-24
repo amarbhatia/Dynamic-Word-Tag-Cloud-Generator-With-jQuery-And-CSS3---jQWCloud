@@ -3,12 +3,12 @@
 This plugin does not belong to me i have taken it from https://www.jqueryscript.net/text/Word-Tag-Cloud-Generator-jQWCloud.html
 
 * Create a container element in which you want to generate the word cloud.
-Create a div with id wordCloud for an example
+  <p>Create a div with id wordCloud for an example</p>
 
 * Insert jQuery JavaScript library and the jQWCloud.js into your html page.
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-</script>
-<script src="jQWCloud.js"></script>
+ <p><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script></p>
+<p><script src="jQWCloud.js"></script></p>
 
 
 * Prepare your words & tags to be presented in the word cloud.
